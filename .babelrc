@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["es2015", { "loose": true }],
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+    "transform-object-rest-spread",
+    "react-hot-loader/babel"
+  ]
+}
